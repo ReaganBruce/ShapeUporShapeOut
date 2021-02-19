@@ -1,0 +1,60 @@
+#div-container {
+  position: relative;
+  background-color: rgb(90, 90, 156);
+  height: 600px;
+  width: 600px;
+}
+
+.sidebar-container {
+    position: absolute;
+  background-color: rgb(90, 90, 156);
+  margin-top: 16px;
+  left: 85vw;
+  width: 60vw;
+  height: 50%;
+}
+
+#sidebar-header {
+    color: white;
+  margin-left: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#shape-name,
+#shape-width,
+#shape-height,
+#shape-radius,
+#shape-area,
+#shape-perimeter {
+  color: white;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.square {
+    position: absolute;
+  background-color: red;
+  opacity: 0.5;
+}
+
+.rectangle {
+    position: absolute;
+    background-color: green;
+    opacity: 0.5
+}
+
+.circle {
+  position: absolute;
+  background: purple;
+  opacity: 0.5
+  
+}
+
+.triangle {
+    position: absolute;
+    opacity: 0.5;
+    width: 0px;
+    height: 0px;
+    }

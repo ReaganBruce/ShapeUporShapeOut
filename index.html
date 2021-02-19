@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Up or Shape Out</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ml-4 mr-4 mt-3 d-flex justify-content-around border border-primary py-3">
+
+            <!-- Square Button and Input Form -->
+            <div class="add-square-group">
+                <button class="btn btn-outline-dark btn btn-danger btn btn-primary btn-lg " type="button"
+                    id="button-square">
+                    Add Square!
+                </button>
+
+                <input type="text" class="form-control mt-3" placeholder="Width px:" id="form-square-length" />
+            </div>
+
+            <!-- Rectangle Button and Input Form -->
+            <div class="add-rectangle-group">
+                <button class="btn btn-outline-dark btn btn-success btn btn-primary btn-lg" type="button"
+                    id="button-rectangle">
+                    Add Rectangle!
+                </button>
+                <input type="text" class="form-control mt-3" placeholder="Width px:" id="form-rectangle-width" />
+                <input type="text" class="form-control" placeholder="Height px:" id="form-rectangle-height" />
+            </div>
+
+            <!-- Circle Button and Input Form -->
+            <div class="add-circle-group">
+                <button class="btn btn-outline-dark btn btn-primary btn btn-primary btn-lg" type="button"
+                    id="button-circle">
+                    Add Circle!
+                </button>
+                <input type="text" class="form-control mt-3" placeholder="Radius px:" id="form-circle-radius" />
+            </div>
+
+            <!-- Triangle Button and Input Form -->
+            <div class="add-triangle-group">
+                <button class="btn btn-outline-dark btn btn-warning btn btn-primary btn-lg" type="button"
+                    id="button-triangle">
+                    Add Triangle!
+                </button>
+                <input type="text" class="form-control mt-3" placeholder="Height px:" id="form-triangle-height" />
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sidebar container information for shaped-divs -->
+    <div class="sidebar-container">
+            <div class="shape-details">
+                <h1 id="sidebar-header">Shape Details</h1>
+
+                <h3 id='shape-name'></h3>
+                
+                <h3 id='shape-width'></h3>
+
+                <h3 id='shape-height'></h3>
+
+                <h3 id='shape-radius'></h3>
+
+                <h3 id='shape-area'></h3>
+                
+                <h3 id='shape-perimeter'></h3>
+                
+            </div>
+
+        </div>
+    
+    
+    <!-- Div Container for shapes -->
+    <div class="container">
+        <div class="row ml-4 mt-3">
+            <div id='div-container'></div>
+            
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
